@@ -1,0 +1,96 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: #ffffff;
+}
+#hero{
+   
+}
+.box{
+    margin-left: 5rem;
+    width: 20rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 1rem;
+    padding-left: 0.8rem;
+}
+.box1 h1{
+    font-weight: 900;
+    font-size:2.5rem;
+    margin-left: 5rem;
+
+}
+.box2{
+    max-width: 40rem;
+    margin-left: 5rem;
+    padding-right: 16rem;
+    padding-top: 2rem;
+    text-align: justify;
+}
+.x{
+position: absolute;
+top: 5%;
+left: 65%;
+right: 50%;
+bottom: 5%;
+ }
+
+#hero header{
+    height: 3vh;
+    padding-top: 9rem;
+    padding-left:5rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S{
+    background-color: rgba(50, 9, 198, 0.857);
+  font-size: 1.0rem;
+  font-weight: 400;
+  padding-top:0.3rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  margin-left: 5rem;
+  text-decoration: none;
+  color: #ddd;
+  
+}
+.L{
+background-color:#efeeee93;
+font-weight: 450;
+padding-top: 0.3rem;
+padding-right: 0.3rem;
+border-radius: 0.2rem;
+padding-left: 0.3rem;
+padding-bottom: 0.3rem;
+margin-left: 0.7rem;
+text-decoration: none;
+color: #1c1b1b;
+
+}
+.R{
+    text-decoration: none;
+    color:rgba(50, 9, 198, 0.857);
+    font-weight: 500;
+}
+.L:hover{
+    background-color: rgb(166, 166, 166);
+    transition: 0.3s;
+}
+.S:hover{ 
+    background-color: rgb(203, 157, 238);
+    transition: 0.3s;
+}
+.R:hover{
+  background-color: rgb(234, 215, 248);
+    transition: 0.3s;
+      
+}
